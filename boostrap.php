@@ -12,5 +12,7 @@ License: MIT
 define('PKJ_PLUGIN_PAGE_SOURCE_PATH', dirname(__FILE__));
 
 include PKJ_PLUGIN_PAGE_SOURCE_PATH. '/includes/Pkj_PageSources_Integration.php';
+include PKJ_PLUGIN_PAGE_SOURCE_PATH. '/includes/Pkj_ListContent_Widget.php';
 
 Pkj_PageSources_Integration::instance();
+Pkj_ListContent_Widget::loadWidget();
