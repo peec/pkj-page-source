@@ -7,7 +7,7 @@ Description: Wordpress plugin that lets you add a source to pages, to list autom
 Version: 0.0.1
 Author: Petter Kjelkenes
 Author URI: http://pkj.no
-License: MIT
+License: GPLv2 or later
 */
 
 define('PKJ_PLUGIN_PAGE_SOURCE_PATH', dirname(__FILE__));

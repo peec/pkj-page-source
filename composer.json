@@ -1,6 +1,6 @@
 {
     "name": "pkj/pkj-page-source",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Wordpress plugin that lets you show custom post-types as rows or blocks in the content, to avoid manual duplication of content.",
     "keywords": [
         "grid",
