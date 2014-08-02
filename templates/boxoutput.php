@@ -88,7 +88,7 @@
             <?php echo $name ?> <input name="pkj_qa[blocksize][<?php echo $id ?>]" value="<?php echo $selSize?>" size="2" />
         <?php endforeach?>
 
-        <?php $selectedBlockClass = $value && isset($valuePair['params']['block_class']) ? $valuePair['params']['block_class'] : 'col-md-4'; ?>
+        <?php $selectedBlockClass = $value && isset($valuePair['params']['block_class']) ? $valuePair['params']['block_class'] : ''; ?>
         <p><strong><?php _e('Blocks custom classes', 'pkj-page-source') ?></strong></p>
         <input type="text" value="<?php echo $selectedBlockClass ?>" name="pkj_qa[block_class]" />
     </div>

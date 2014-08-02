@@ -70,7 +70,7 @@ class Pkj_PageSources_Integration
     public function frontend_output ( $output ) {
         global $post;
 
-        $obj = json_decode(get_post_meta(get_the_ID(), 'pkj_sources', true), true);
+        $obj = json_decode(get_post_meta(get_the_ID(), '_pkj_sources', true), true);
 
         if (in_array(get_post_type(), $this->postTypes) && isset($obj['query']) && $obj['query']) {
 
@@ -92,19 +92,21 @@ class Pkj_PageSources_Integration
 
     public function box_output()
     {
-        $valuePair = json_decode(get_post_meta(get_the_id(), 'pkj_sources', true), true);
+
+        $valuePair = json_decode(get_post_meta(get_the_id(), '_pkj_sources', true), true);
         $value = false;
         if ($valuePair) {
             parse_str($valuePair['query'], $value);
         }
         $postTypes = get_post_types(array('_builtin' => false));
 
-        $this->render('boxoutput.php', array(
+        $tplParams = array(
             'postTypes' => $postTypes,
             'valuePair' => $valuePair,
             'value' => $value,
             'modes' => $this->getModes()
-        ));
+        );
+        $this->render('boxoutput.php', $tplParams);
     }
 
     public function render ($view, $args = array(), $return = false) {
@@ -119,6 +121,9 @@ class Pkj_PageSources_Integration
 
         if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return false;
         if (!current_user_can('edit_page', $postid)) return false;
+
+        if (!in_array(get_post_type($postid), $this->postTypes)) return false;
+
 
         if (isset($_POST)) {
             $qArgs = array();
@@ -135,7 +140,7 @@ class Pkj_PageSources_Integration
             }
 
             if ($qArgs) {
-                update_post_meta((int)$postid, 'pkj_sources', wp_slash(json_encode($q)));
+                update_post_meta((int)$postid, '_pkj_sources', wp_slash(json_encode($q)));
             }
         }
 
