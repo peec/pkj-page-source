@@ -9,6 +9,8 @@ Author URI: http://pkj.no
 License: MIT
 */
 
-include dirname(__FILE__) . '/includes/Pkj_PageSources_Integration.php';
+define('PKJ_PLUGIN_PAGE_SOURCE_PATH', dirname(__FILE__));
+
+include PKJ_PLUGIN_PAGE_SOURCE_PATH. '/includes/Pkj_PageSources_Integration.php';
 
 Pkj_PageSources_Integration::instance();
