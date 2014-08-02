@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PKJ Page Source v0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-08-02 22:06:16+0000\n"
+"Last-Translator: peec <kjelkenes@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Norwegian (Bokmål)\n"
+"X-Poedit-Country: NORWAY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/Pkj_ListContent_Widget.php:24
+#@ pkj-page-source
+msgid "PKJ List Posts"
+msgstr ""
+
+#: includes/Pkj_ListContent_Widget.php:26
+#@ pkj-page-source
+msgid "List any post type in this widget"
+msgstr ""
+
+#: includes/Pkj_ListContent_Widget.php:69
+#@ pkj-page-source
+msgid "New title"
+msgstr "Ny tittel"
+
+#: includes/Pkj_ListContent_Widget.php:77
+#@ default
+msgid "Title:"
+msgstr ""
+
+#: includes/Pkj_ListContent_Widget.php:94
+#@ default
+msgid "Post type:"
+msgstr ""
+
+#: includes/Pkj_ListContent_Widget.php:99
+#@ default
+msgid "Sorter etter:"
+msgstr ""
+
+#: includes/Pkj_PageSources_Integration.php:58
+#@ pkj-page-source
+msgid "Line view"
+msgstr "Linje visning"
+
+#: includes/Pkj_PageSources_Integration.php:59
+#@ pkj-page-source
+msgid "Block view"
+msgstr "Blokk visning"
+
+#: includes/Pkj_PageSources_Integration.php:66
+#@ pkj-page-source
+msgid "List content from source"
+msgstr "List innhold fra kilde"
+
+#: templates/boxoutput.php:1
+#@ pkj-page-source
+msgid "Generic settings"
+msgstr ""
+
+#: templates/boxoutput.php:14
+#@ pkj-page-source
+msgid "Get post type"
+msgstr ""
+
+#: templates/boxoutput.php:20
+#@ pkj-page-source
+msgid "Amount of items"
+msgstr "Antall elementer"
+
+#: templates/boxoutput.php:28
+#@ pkj-page-source
+msgid "Show featured image"
+msgstr "Vis fremhevet bilde"
+
+#: templates/boxoutput.php:35
+#@ pkj-page-source
+msgid "Show excerpt"
+msgstr "Vis ingress"
+
+#: templates/boxoutput.php:40
+#@ pkj-page-source
+msgid "Where to place the content"
+msgstr "Hvor skal innholdet plasseres"
+
+#: templates/boxoutput.php:43
+#@ pkj-page-source
+msgid "After the content"
+msgstr "Etter innholdet på siden"
+
+#: templates/boxoutput.php:44
+#@ pkj-page-source
+msgid "Before the content"
+msgstr "Før innholdet på siden"
+
+#: templates/boxoutput.php:56
+#@ pkj-page-source
+msgid "View mode"
+msgstr "Visningsmodus"
+
+#: templates/boxoutput.php:70
+#@ pkj-page-source
+msgid "Block settings"
+msgstr "Blokk instillinger"
+
+#: templates/boxoutput.php:75
+#@ pkj-page-source
+msgid "Small devices"
+msgstr "Små enheter"
+
+#: templates/boxoutput.php:76
+#@ pkj-page-source
+msgid "Medium devices"
+msgstr "Medium enheter (tablet)"
+
+#: templates/boxoutput.php:77
+#@ pkj-page-source
+msgid "Large devices"
+msgstr "Store enheter (PC,Laptop)"
+
+#: templates/boxoutput.php:85
+#@ pkj-page-source
+msgid "Amount of columns per row"
+msgstr "Antall kolonner per rad"
+
+#: templates/boxoutput.php:92
+#@ pkj-page-source
+msgid "Blocks custom classes"
+msgstr "Blokk, tilpassede klasser (avansert)"
+
+#: templates/modes/block.php:18
+#: templates/modes/line.php:19
+#@ pkj-page-source
+msgid "Read more"
+msgstr "Les mer"
+

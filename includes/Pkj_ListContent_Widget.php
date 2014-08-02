@@ -21,9 +21,9 @@ class Pkj_ListContent_Widget extends WP_Widget
     {
         parent::__construct(
             'pkj_listcontent_widget',
-            __('PKJ List Posts', 'pkj'),
+            __('PKJ List Posts', 'pkj-page-source'),
             array(
-                'description' => __('List any post type in this widget', 'pkj')
+                'description' => __('List any post type in this widget', 'pkj-page-source')
             )
         );
     }
@@ -66,7 +66,7 @@ class Pkj_ListContent_Widget extends WP_Widget
         if (isset($instance['title'])) {
             $title = $instance['title'];
         } else {
-            $title = __('New title', 'pkj');
+            $title = __('New title', 'pkj-page-source');
         }
 
         $selectedPostType = isset($instance['post_type']) ? $instance['post_type'] : '';
@@ -99,7 +99,7 @@ class Pkj_ListContent_Widget extends WP_Widget
         <label for="<?php echo $this->get_field_id('sortby'); ?>"><?php _e('Sorter etter:'); ?></label>
         <select class="widefat" id="<?php echo $this->get_field_id('sortby'); ?>"
                 name="<?php echo $this->get_field_name('sortby'); ?>">
-            <?php $sortOrders = array('none' => 'Ingen', 'ID' => 'ID', 'author' => 'Forfatter', 'title' => 'Tittel', 'type' => 'Type', 'date' => 'Dato', 'modified' => 'Sist endret', 'comment_count' => 'Antall kommentarer');
+            <?php $sortOrders = array('none' => 'None', 'ID' => 'ID', 'author' => 'Author', 'title' => 'Title', 'type' => 'Type', 'date' => 'Date added', 'modified' => 'Last modified', 'comment_count' => 'Comment amount');
             foreach ($sortOrders as $o => $l) {
                 $selected = $o == esc_attr($selectedSortOrder);
                 echo "<option value='$o' " . ($selected ? 'selected="selected"' : '') . " >$l</option>";

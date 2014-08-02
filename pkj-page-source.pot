@@ -1,0 +1,135 @@
+# Copyright (C) 2014 PKJ Page Source
+# This file is distributed under the same license as the PKJ Page Source package.
+msgid ""
+msgstr ""
+"Project-Id-Version: PKJ Page Source 0.0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/pkj-page-source\n"
+"POT-Creation-Date: 2014-08-02 22:01:21+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/Pkj_ListContent_Widget.php:24
+msgid "PKJ List Posts"
+msgstr ""
+
+#: includes/Pkj_ListContent_Widget.php:26
+msgid "List any post type in this widget"
+msgstr ""
+
+#: includes/Pkj_ListContent_Widget.php:69
+msgid "New title"
+msgstr ""
+
+#: includes/Pkj_ListContent_Widget.php:77
+msgid "Title:"
+msgstr ""
+
+#: includes/Pkj_ListContent_Widget.php:94
+msgid "Post type:"
+msgstr ""
+
+#: includes/Pkj_ListContent_Widget.php:99
+msgid "Sorter etter:"
+msgstr ""
+
+#: includes/Pkj_PageSources_Integration.php:58
+msgid "Line view"
+msgstr ""
+
+#: includes/Pkj_PageSources_Integration.php:59
+msgid "Block view"
+msgstr ""
+
+#: includes/Pkj_PageSources_Integration.php:66
+msgid "List content from source"
+msgstr ""
+
+#: templates/boxoutput.php:1
+msgid "Generic settings"
+msgstr ""
+
+#: templates/boxoutput.php:14
+msgid "Get post type"
+msgstr ""
+
+#: templates/boxoutput.php:20
+msgid "Amount of items"
+msgstr ""
+
+#: templates/boxoutput.php:28
+msgid "Show featured image"
+msgstr ""
+
+#: templates/boxoutput.php:35
+msgid "Show excerpt"
+msgstr ""
+
+#: templates/boxoutput.php:40
+msgid "Where to place the content"
+msgstr ""
+
+#: templates/boxoutput.php:43
+msgid "After the content"
+msgstr ""
+
+#: templates/boxoutput.php:44
+msgid "Before the content"
+msgstr ""
+
+#: templates/boxoutput.php:56
+msgid "View mode"
+msgstr ""
+
+#: templates/boxoutput.php:70
+msgid "Block settings"
+msgstr ""
+
+#: templates/boxoutput.php:75
+msgid "Small devices"
+msgstr ""
+
+#: templates/boxoutput.php:76
+msgid "Medium devices"
+msgstr ""
+
+#: templates/boxoutput.php:77
+msgid "Large devices"
+msgstr ""
+
+#: templates/boxoutput.php:85
+msgid "Amount of columns per row"
+msgstr ""
+
+#: templates/boxoutput.php:92
+msgid "Blocks custom classes"
+msgstr ""
+
+#: templates/modes/block.php:18 templates/modes/line.php:19
+msgid "Read more"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PKJ Page Source"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/peec/pkj-page-source"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Wordpress plugin that lets you add a source to pages, to list automatic "
+"generated content."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Petter Kjelkenes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://pkj.no"
+msgstr ""
