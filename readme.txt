@@ -50,6 +50,8 @@ If you want to customize the default generated see [https://github.com/peec/pkj-
 
 1. Options on each page. By selecting a custom post type to list, content are altered.
 2. How it may look (this is from my own site / my own theme).
+3. A widget to list any post type.
+4. How it might look in a footer (widget).
 
 == Changelog ==
 
