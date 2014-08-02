@@ -9,7 +9,7 @@
         "plugin"
     ],
     "homepage": "https://github.com/peec/pkj-page-source",
-    "license": "MIT",
+    "license": "GPLv2 or later",
     "authors": [
         {
             "name": "Petter Kjelkenes",
