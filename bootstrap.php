@@ -4,7 +4,7 @@ Plugin Name: PKJ Page Source
 Text Domain: pkj-page-source
 Plugin URI: https://github.com/peec/pkj-page-source
 Description: Wordpress plugin that lets you add a source to pages, to list automatic generated content.
-Version: 0.0.4
+Version: 0.0.5
 Author: Petter Kjelkenes
 Author URI: http://pkj.no
 License: GPLv2 or later
