@@ -55,12 +55,4 @@ this code in your functions.php file:
 ```
 
 
-## Screenshots
-
-![Alt text](/assets/screenshot-1.png?raw=true "")
-![Alt text](/assets/screenshot-2.png?raw=true "")
-![Alt text](/assets/screenshot-3.png?raw=true "")
-![Alt text](/assets/screenshot-4.png?raw=true "")
-
-
 
